@@ -67,7 +67,7 @@ the traffic on NY city
 ¿How much time and money on average people are investing to travel between those critical points?
 
 # Scalability in case of 100x
-As we are working only in a subset of 33% original dataset, expecting a 100x additional data 
+As we are working only in a subset of 15% original dataset, expecting a 100x additional data 
 in the original one means we have different data sources like Mobile, Web, Databases and IoT, in that
 case use Cloud Pub/Sub and for filter, clean and transform use Cloud DataFlow storing finally 
 in BigQuery, all fulled management by GCP
