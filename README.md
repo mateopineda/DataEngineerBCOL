@@ -10,15 +10,41 @@ https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 It's a subset data on New York City Taxi Cab trips for 2014.
 
 # Content
-vendorid pickupdatetime
-dropoffdatetime passengercount
-tripdistance pickuplongitude
-pickuplatitude storeandfwdflag
-dropofflongitude dropofflatitude
-paymenttype fareamount
-mtatax tipamount
-tollsamount totalamount
-impsurcharge extra ratecode
+1. vendor_id	
+
+2. pickup_datetime	
+
+3. dropoff_datetime	
+
+4. passenger_count	
+
+5. trip_distance	
+
+6. pickup_longitude	
+
+7. pickup_latitude	
+
+8. rate_code	
+
+9. store_and_fwd_flag
+
+10. dropoff_longitude	
+
+11. dropoff_latitude	
+
+12. payment_type	
+
+13. fare_amount	
+
+14. surcharge	
+
+15. mta_tax	
+
+16. tip_amount	
+
+17. tolls_amount	
+
+18. total_amount
 
 # Data Size
 2.36 GB
@@ -35,3 +61,19 @@ trip starts and ends in most of the cases, with that information the district ad
 search for different alternatives in transportation on those zones, having as a main purpose, reduce 
 the traffic on NY city
 
+# Questions
+¿Is the high vehicular traffic of NY product of a lack in mobility alternatives on specific parts of the city?
+¿How much time and money on average people are investing to travel between those critical points?
+
+# Scalability in case of 100x
+As we are working only in a subset of 33% original dataset, expecting a 100x additional data 
+in the original one means we have different data sources like Mobile, Web, Databases and IoT, in that
+case use Cloud Pub/Sub and for filter, clean and transform use Cloud DataFlow storing finally 
+in BigQuery, all fulled management by GCP
+
+# Running data pipelines daily at 7am
+I suggest to connect Cloud Run to our data pipeline giving the required schedule of 7am
+
+# Database concurrency for more than 100 persons
+In case of extensive activities by many users at same time, will be a better approach use distributed 
+databases with certain independence and capable to implement solutions with parallelism 
