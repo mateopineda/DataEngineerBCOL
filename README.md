@@ -63,6 +63,7 @@ the traffic on NY city
 
 # Questions
 ¿Is the high vehicular traffic of NY product of a lack in mobility alternatives on specific parts of the city?
+
 ¿How much time and money on average people are investing to travel between those critical points?
 
 # Scalability in case of 100x
