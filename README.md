@@ -3,7 +3,8 @@ Hi all
 
 This repo has a simple data analysis initiated for BCOL marketing area
 
-# Data source url: https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
+# Data source url 
+https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 
 # Context
 It's a subset data on New York City Taxi Cab trips for 2014.
