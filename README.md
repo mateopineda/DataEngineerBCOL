@@ -66,6 +66,20 @@ the traffic on NY city
 
 ¿How much time and money on average people are investing to travel between those critical points?
 
+# Tools and technologies 
+In this case i use GCP IaaS creating a VM instance having a deep learning image on linux with tensorflow, 
+cause that provides me immediately a ready to run environment. After configure a firewall rule and define
+an static ip then i started a Jupyter Notebook with following command
+###### jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &
+Jupyter Notebooks it's a very good option when we are still in the prototyping phase and has support for
+Julia, Python, and R. In this case im using Python for my experience working on and knowledge of librarys.
+Apart of that, basic libraries in using like pandas for data structures, matplotlib for plotting and logging 
+for logs and exceptions storage
+
+# Data Updates
+data updates frequency for this analysis table should be daily as many events can do a change in traffic like 
+infrastructure changes on the city, sport events, holidays, and so on
+
 # Scalability in case of 100x
 As we are working only in a subset of 15% original dataset, expecting a 100x additional data 
 in the original one means we have different data sources like Mobile, Web, Databases and IoT, in that
