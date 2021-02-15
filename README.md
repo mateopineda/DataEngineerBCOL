@@ -61,10 +61,8 @@ trip starts and ends in most of the cases, with that information the district ad
 search for different alternatives in transportation on those zones, having as a main purpose, reduce 
 the traffic on NY city
 
-# Questions
+# Question
 ¿Is the high vehicular traffic of NY product of a lack in mobility alternatives on specific parts of the city?
-
-¿How much time and money on average people are investing to travel between those critical points?
 
 # Tools and technologies 
 In this case i use GCP IaaS creating a VM instance having a deep learning image on linux with tensorflow, 
