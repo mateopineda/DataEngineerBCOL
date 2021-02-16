@@ -80,6 +80,9 @@ for logs and exceptions storage
 data updates frequency for this analysis table should be daily as many events can do a change in traffic like 
 infrastructure changes on the city, sport events, holidays, and so on
 
+# Cloud DataFlow (DataPipeline)
+console.cloud.google.com/dataflow/jobs/us-central1/2021-02-15_18_09_49-17407678537988426797?pageState=(%22dfTime%22:(%22s%22:%222021-02-16T02:09:54.658Z%22,%22e%22:%222021-02-16T02:18:31.133Z%22))&project=dataenginnerbancolombia
+
 # Scalability in case of 100x
 As we are working only in a subset of 15% original dataset, expecting a 100x additional data 
 in the original one means we have different data sources like Mobile, Web, Databases and IoT, in that
