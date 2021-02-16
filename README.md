@@ -12,13 +12,13 @@ http://35.226.138.102:8888/
 
 # Project structure
 ###### Code
-  CaptureLogs.ipynb
-  TaxiTrip.ipynb
+  -CaptureLogs.ipynb
+  -TaxiTrip.ipynb
 ###### Data
-  NYmap.jpg
-  subsetTaxiTrip.csv
+  -NYmap.jpg
+  -subsetTaxiTrip.csv
 ###### Logs_Exception
-  TaxiTrip.log
+  -TaxiTrip.log
   
 # Context
 It's a subset data on New York City Taxi Cab trips for 2014.
