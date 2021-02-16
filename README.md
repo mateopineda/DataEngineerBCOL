@@ -6,6 +6,10 @@ This repo has a simple data analysis initiated for BCOL marketing area
 # Data source url 
 https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 
+# Jupyter Notebook url
+http://35.226.138.102:8888/
+###### TOKEN:f2258a3332e7753bdd170fa1892465b3411607e54735b222
+
 # Context
 It's a subset data on New York City Taxi Cab trips for 2014.
 
