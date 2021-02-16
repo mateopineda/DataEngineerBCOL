@@ -10,41 +10,43 @@ https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 It's a subset data on New York City Taxi Cab trips for 2014.
 
 # Content
-1. vendor_id	
+1. vendor_id	- object -  a code indicating the provider associated with the trip record
 
-2. pickup_datetime	
+2. pickup_datetime	- object -  date and time when the meter was engaged.
 
-3. dropoff_datetime	
+3. dropoff_datetime	- object -  date and time when the meter was disengaged.	
 
-4. passenger_count	
+4. passenger_count	- int64 -  the number of passengers in the vehicle (driver entered value).
 
-5. trip_distance	
+5. trip_distance	- float64
 
-6. pickup_longitude	
+6. pickup_longitude	- float64 -  the longitude where the meter was engaged.
 
-7. pickup_latitude	
+7. pickup_latitude	- float64 -  the latitude where the meter was engaged.
 
-8. rate_code	
+8. rate_code	- int64
 
-9. store_and_fwd_flag
+9. store_and_fwd_flag	- object -  This flag indicates whether the trip record was held in vehicle memory 
+before sending to the vendor because the vehicle did not have a connection to the server - Y=store and forward
+; N=not a store and forward trip. 
 
-10. dropoff_longitude	
+10. dropoff_longitude	- float64 -  the longitude where the meter was disengaged.
 
-11. dropoff_latitude	
+11. dropoff_latitude	- float64 -  the latitude where the meter was disengaged.
 
-12. payment_type	
+12. payment_type	- object
 
-13. fare_amount	
+13. fare_amount	- float64
 
-14. surcharge	
+14. surcharge	- float64
 
-15. mta_tax	
+15. mta_tax	- float64
 
-16. tip_amount	
+16. tip_amount	- float64d	
 
-17. tolls_amount	
+17. tolls_amount	- float64
 
-18. total_amount
+18. total_amount	- float64
 
 # Data Size
 2.36 GB
