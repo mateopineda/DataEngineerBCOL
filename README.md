@@ -9,7 +9,7 @@ https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 # Context
 It's a subset data on New York City Taxi Cab trips for 2014.
 
-# Content
+# Data model and dictionary
 1. vendor_id	- object -  a code indicating the provider associated with the trip record
 
 2. pickup_datetime	- object -  date and time when the meter was engaged.
