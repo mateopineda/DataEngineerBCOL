@@ -76,12 +76,17 @@ Julia, Python, and R. In this case im using Python for my experience working on 
 Apart of that, basic libraries in using like pandas for data structures, matplotlib for plotting and logging 
 for logs and exceptions storage
 
+Please if you want also check following image Arch.jpg stored in this repo for additional info
+
 # Data Updates
 data updates frequency for this analysis table should be daily as many events can do a change in traffic like 
 infrastructure changes on the city, sport events, holidays, and so on
 
 # Cloud DataFlow (DataPipeline)
 console.cloud.google.com/dataflow/jobs/us-central1/2021-02-15_18_09_49-17407678537988426797?pageState=(%22dfTime%22:(%22s%22:%222021-02-16T02:09:54.658Z%22,%22e%22:%222021-02-16T02:18:31.133Z%22))&project=dataenginnerbancolombia
+
+Please if you want also check following images dataflow.jpg, dataflowJobs.jpg and dataprep.jpg stored in this repo 
+for additional info
 
 # Scalability in case of 100x
 As we are working only in a subset of 15% original dataset, expecting a 100x additional data 
