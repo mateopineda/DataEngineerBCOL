@@ -10,6 +10,16 @@ https://www.kaggle.com/kentonnlp/2014-new-york-city-taxi-trips
 http://35.226.138.102:8888/
 ###### TOKEN:f2258a3332e7753bdd170fa1892465b3411607e54735b222
 
+# Project structure
+###### Code
+  CaptureLogs.ipynb
+  TaxiTrip.ipynb
+###### Data
+  NYmap.jpg
+  subsetTaxiTrip.csv
+###### Logs_Exception
+  TaxiTrip.log
+  
 # Context
 It's a subset data on New York City Taxi Cab trips for 2014.
 
